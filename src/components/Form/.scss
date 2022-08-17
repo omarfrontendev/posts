@@ -1,0 +1,52 @@
+.form__container {
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px;
+  border: 1px solid #d3cbcb;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  
+  .post__input {
+    width: 100%;
+    height: 54px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border: 1px solid #ede9e9;
+    border-radius: 50px;
+    background: #F0F2F5;
+    width: 100%;
+  }
+  .form__bottom {
+    column-gap: 10px;
+  
+    .label {
+      font-size: 29px;
+      cursor: pointer;
+      margin-left: -15px;
+      margin-top: -3px;
+    }
+    .submit__btn {
+      border: none;
+      outline: none;
+      font-size: 18px;
+      background-color: #1B74E4;
+      color: #FFF;
+      padding: 10px 24px;
+      border-radius: 27px;
+      height: 54px;
+      transition: .3s linear;
+      &:disabled {
+        background-color: #d3cbcb;
+      }
+    }
+  }
+  .progress {
+    position: absolute;
+    bottom: -29px;
+    width: 100%;
+    left: 0;
+    background-color: transparent;
+  }
+}
