@@ -2,7 +2,7 @@ import React from 'react';
 import SinglePost from '../SinglePost';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import './.scss';
+import './posts.scss';
 
 export default function Posts({ posts, loading }) {
 

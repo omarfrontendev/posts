@@ -5,7 +5,7 @@ import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
 import { toast } from 'react-toastify';
 import { FcAddImage } from 'react-icons/fc'
 
-import './.scss'
+import './form.scss'
 
 export default function Form({ setLoading }) {
   

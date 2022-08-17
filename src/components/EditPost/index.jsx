@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { AiFillCloseCircle } from 'react-icons/ai'
 import { doc, updateDoc } from 'firebase/firestore'
 
-import './.scss'
+import './editPost.scss'
 import { db, storage } from '../../firebaseConfig';
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
 import { toast } from 'react-toastify';

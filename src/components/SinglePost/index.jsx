@@ -7,7 +7,7 @@ import { AiTwotoneDelete, AiTwotoneEdit } from 'react-icons/ai'
 import EditPost from '../EditPost'
 import { motion } from 'framer-motion'
 
-import './.scss';
+import './singlePost.scss';
 
 export default function SinglePost({ id, post, imageUrl, createAt }) {
 
